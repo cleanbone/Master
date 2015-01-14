@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantozzi's moives</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <h1>
+          <img src="img/logo.png" alt="Fantozzi's Movies" />
+          <a href="index.html">
+            Fantozzi's Movies
+          </a>
+        </h1>
+      </div>
+    </header>
+    <div class="central">
+      <nav>
+        <span>MENU &raquo;</span>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="list.html">MOVIES LIST</a>
+            <ul>
+              <li><a href="movies/fantozzi.html">Fantozzi</a></li>
+              <li>
+                <a href="movies/secondo.html">
+                  Il secondo tragico Fantozzi
+                </a>
+              </li>
+              <li><a href="movies/contro.html">Fantozzi contro tutti</a></li>
+              <li><a href="movies/subisce.html">Fantozzi subisce ancora</a></li>
+            </ul>
+          </li>
+          <li><a href="contribute.html">CONTRIBUTE</a></li>
+
+        </ul>
+      </nav>
+      <div class="content">
+        <h2>Contribute and Contact</h2>
+        <p>We would like to thanks all contibutors on this project</p>
+        <ul class="contributors">
+          <li><em>Web Designer</em>: Andrea Mannarà - <a href="mailto:a.mannara@fantozzi.it">a.mannara@fantozzi.it</a> - huvber</li>
+          <li><em>Idea Manager</em>: Pippo Pappone - <a href="mailto:p.pappone@fantozzi.it">p.pappone@fantozzi.it</a> - papas65</li>
+          <li><em>Poster Finder</em>: - <a href="mailto:c.cai@fantozzi.it">c.cai@fantozzi.it</a> - caicai29</li>
+          <div class="clear"></div>
+        </ul>
+        <h3>Do you wanna help?</h3>
+        <form action="http://secnet.di.unito.it/cgi-bin/parrot.cgi" method="post">
+          <label for="name">Name:</label><br />
+          <input id="name" type="text" name="name" /><br />
+          <label for="surname">Surname:</label><br />
+          <input id="surname" type="text" name="surname" /><br />
+          <label for="email">E-mail:</label><br />
+          <input id="email" type="email" name="email" /><br />
+          <label for="content">your idea:</label><br />
+          <textarea id="content" name="content"></textarea><br />
+          <input class="button" type="submit" value="send" />
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <footer>
+      Made for
+      <a href="http://master.i-learn.unito.it/course/view.php?id=28">
+        PHP5 e Ajax per applicazioni web
+      </a>
+
+    </footer>
+  </div>
+</body>
+</html>
