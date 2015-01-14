@@ -1,0 +1,21 @@
+body,
+html {
+  width:90%;
+  margin:0 auto;
+}
+p.es04 {
+  text-align:right;
+  color: #036000;
+  background-color:#7cf5f1;
+}
+p.es04 > span {
+  color: #b60f33;
+}
+
+p.es05{
+  font-size:1em;
+}
+p.es05::first-letter{
+  font-size:3em;
+  color: #036000;
+}

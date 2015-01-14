@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fantozzi's Movies</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="intro">
+        <h1>Fantozzi's Movies</h1>
+        <nav class="menu">
+          <a class="button" href="list.html">Lists of Movies</a>
+          <a class="button" href="contribute.html">Contributors</a>
+        </nav>
+      </div>
+      <img src="img/locandina.png" alt="locandina" />
+      <p>
+        Fantozzi saga is a group of movies created by 
+        <a href="http://en.wikipedia.org/wiki/Paolo_Villaggio">Paolo Villaggio</a>
+        that tell the story of <strong>Ugo Fantozzi</strong>. 
+        His role is that of a hapless accountant who is fighting with the vices,
+        the tortures and the changes in Italian society. What made the character
+        famous is its extravagant exaggeration of customs and habits, in a manner
+        so coarse and grotesque that immediately made Fantozzi the representative
+        of Italy's lower middle class.
+      </p>
+    </div>
+  </body>
+</html>
