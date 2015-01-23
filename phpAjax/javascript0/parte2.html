@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>PhpAjax JS parte 2</title>
+    <style type="text/css">
+      .imglist{
+        float:left;
+        width:20%;
+        margin:0;
+      }
+      .imglist li{
+        cursor:pointer;
+        list-style:none;
+      }
+      .imglist li img{
+        width:90%;
+        margin-bottom:1%;
+      }
+      .viewer{
+        float:right;
+        width:70%;
+        height:80%;
+      }
+      .viewer img{
+        width:100%;
+        height:90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <ul class="imglist">
+        <li><img src="http://upload.wikimedia.org/wikipedia/commons/a/aa/A._gigantea_Aldabra_Giant_Tortoise.jpg" alt="" /></li>
+        <li><img src="http://upload.wikimedia.org/wikipedia/commons/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg" alt="" /></li>
+        <li><img src="http://globe-views.com/dcim/dreams/tortoise/tortoise-01.jpg" alt="" /></li>
+        <li><img src="http://images.nationalgeographic.com/wpf/media-live/photos/000/005/cache/galapagos-tortoise_532_600x450.jpg" alt="" /></li>
+      </ul>
+      <div class="viewer">
+        <img id="view" src="" alt="" />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <script type="text/javascript">
+      var imglist = document.getElementsByClassName('imglist')[0];
+      var view = document.getElementById('view');
+      var li = imglist.children;
+      for(l in li){
+        console.log(li[l].children[0]);
+        li[l].onmouseenter = function(){
+          view.src = this.children[0].src;
+        };
+        li[l].onmouseleave = function(){
+          view.src = "";
+        };
+      }
+    </script>
+  </body>
+</html>

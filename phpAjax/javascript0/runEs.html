@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Esercizi Javascript</title>
+    <script type="text/javascript" src="parte1.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var body = document.getElementsByTagName('body')[0];
+      es.forEach(function(c,i){
+        b = document.createElement('button');
+        b.innerHTML = 'Esercizio'+i;
+        b.setAttribute('onclick','es['+i+']();');
+        body.appendChild(b);
+      });
+    </script>
+    <div id="output" style="margin:3em;">
+    </div>
+  </body>
+</html>

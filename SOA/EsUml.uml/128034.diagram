@@ -1,0 +1,21 @@
+format 76
+
+classcanvas 128034 class_ref 128034 // Cliente
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 51.4827 50.2762 2000
+end
+usecasecanvas 128162 usecase_ref 128034 // prenotaStanza
+  xyzwh 209.695 56.4827 3005 64 32 label_xy 208 88
+end
+classcanvas 128418 class_ref 128162 // Impiegato
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 624.285 85.657 2000
+end
+usecasecanvas 128546 usecase_ref 128162 // confermaPrenotazione
+  xyzwh 427 65 3005 64 32 label_xy 405 97
+end
+line 128290 ----
+  from ref 128034 z 3006 to ref 128162
+line 128674 ----
+  from ref 128546 z 3006 to ref 128418
+end

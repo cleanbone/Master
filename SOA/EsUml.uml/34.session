@@ -1,0 +1,13 @@
+window_sizes 1368 705 320 962 512 82
+diagrams
+  active  usecasediagram_ref 128034 // diagramma
+    1042 547 120 4 0 0
+  classdiagram_ref 128162 // classi
+    829 437 100 4 0 0
+end
+show_stereotypes
+selected usecasediagram_ref 128034 // diagramma
+open
+  usecaseview_ref 128034 // first
+end
+end
