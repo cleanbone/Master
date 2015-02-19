@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="views/js/jquery.js"></script>
+  </head>
+  <body>
+    <div id="re"></div>
+    <script type="text/javascript">
+      $(function(){
+        $('#re').load('http://localhost:8200/showlog.php?logfile=error_log&howmanylines=40',function(){
+          var line = $('#re').html();
+          line = line.split('\n');
+          jQuery.grep(line,function(e,i){
+            console.log(e);
+            return e.search('ac137795') != -1
+          });
+          $('#re').html(line.join('<br />'));
+        });
+
+      });
+    </script>
+  </body>
+</html>

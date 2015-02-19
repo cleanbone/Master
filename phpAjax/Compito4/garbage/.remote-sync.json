@@ -1,0 +1,12 @@
+{
+  "uploadOnSave": true,
+  "hostname": "service.educ.di.unito.it",
+  "target": "/usr/home/studenti/ac137795/public",
+  "ignore": [
+    ".git/**"
+  ],
+  "username": "ac137795",
+  "password": "andreama.87",
+  "transport": "scp",
+  "port": "22"
+}

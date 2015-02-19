@@ -1,0 +1,2 @@
+INSERT INTO posts(data, titolo, testo) VALUES ('2006-08-06 18:33:00', 'Questo &egrave; il mio primo post', 'Finalmente sono riuscito a realizzare il mio blog.<br/>Questo vuol dire che non vi libererete cos&igrave; facilmente di me, ora. :-)');
+INSERT INTO posts(data, titolo, testo) VALUES ('2006-08-06 18:34:00', 'Il blog funziona sia con i file che col database', 'Beh, devo dire che sono stato proprio bravo a realizzarlo.');
